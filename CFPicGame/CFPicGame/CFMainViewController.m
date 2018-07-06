@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor   = [UIColor redColor];
+    
+    UIButton    *startBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 60)];
+    startBtn.backgroundColor    = [UIColor blackColor];
+    [startBtn setTitle:@"开始" forState:UIControlStateNormal];
+    [startBtn   setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    startBtn.center = self.view.center;
+    [self.view addSubview:startBtn];
 }
 
 - (void)didReceiveMemoryWarning {

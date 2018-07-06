@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CFMainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    CFMainViewController    *mainVC = [[CFMainViewController alloc]init];
+    UINavigationController  *mainNav    = [[UINavigationController alloc]initWithRootViewController:mainVC];
+    mainNav.navigationBarHidden     = YES;
+    self.window.rootViewController  = mainNav;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
