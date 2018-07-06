@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1234403E501D5434BF47652F /* libPods-CFPicGameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFE5E7A665AFEBAECBDC15F /* libPods-CFPicGameTests.a */; };
+		3389D0EA93C3ED87397A8350 /* libPods-CFPicGameUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A4576D4253CE3F16C41D28 /* libPods-CFPicGameUITests.a */; };
 		7419AEEA20EF051F004CB0AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7419AEE920EF051F004CB0AD /* AppDelegate.m */; };
-		7419AEED20EF051F004CB0AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7419AEEC20EF051F004CB0AD /* ViewController.m */; };
 		7419AEF020EF051F004CB0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7419AEEE20EF051F004CB0AD /* Main.storyboard */; };
 		7419AEF220EF0520004CB0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7419AEF120EF0520004CB0AD /* Assets.xcassets */; };
 		7419AEF520EF0520004CB0AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7419AEF320EF0520004CB0AD /* LaunchScreen.storyboard */; };
 		7419AEF820EF0520004CB0AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7419AEF720EF0520004CB0AD /* main.m */; };
 		7419AF0220EF0520004CB0AD /* CFPicGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7419AF0120EF0520004CB0AD /* CFPicGameTests.m */; };
 		7419AF0D20EF0520004CB0AD /* CFPicGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7419AF0C20EF0520004CB0AD /* CFPicGameUITests.m */; };
+		7419AF1C20EF068C004CB0AD /* CFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7419AF1B20EF068C004CB0AD /* CFMainViewController.m */; };
+		798C5A8B2D4F99437ED5B90A /* libPods-CFPicGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FE644C1D7E90D76D2E44ED /* libPods-CFPicGame.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DFE5E7A665AFEBAECBDC15F /* libPods-CFPicGameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CFPicGameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4D8EBDBE3B6D28511C5AC8 /* Pods-CFPicGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFPicGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFPicGameUITests/Pods-CFPicGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3894A85F1FF50552657EC45D /* Pods-CFPicGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFPicGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CFPicGame/Pods-CFPicGame.debug.xcconfig"; sourceTree = "<group>"; };
+		40FE644C1D7E90D76D2E44ED /* libPods-CFPicGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CFPicGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A4576D4253CE3F16C41D28 /* libPods-CFPicGameUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CFPicGameUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F605CC1DF314741C9BBE56D /* Pods-CFPicGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFPicGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CFPicGameUITests/Pods-CFPicGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7419AEE520EF051F004CB0AD /* CFPicGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFPicGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7419AEE820EF051F004CB0AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7419AEE920EF051F004CB0AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7419AEEB20EF051F004CB0AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7419AEEC20EF051F004CB0AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7419AEEF20EF051F004CB0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7419AEF120EF0520004CB0AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7419AEF420EF0520004CB0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		7419AF0820EF0520004CB0AD /* CFPicGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFPicGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7419AF0C20EF0520004CB0AD /* CFPicGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPicGameUITests.m; sourceTree = "<group>"; };
 		7419AF0E20EF0520004CB0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7419AF1A20EF068C004CB0AD /* CFMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFMainViewController.h; sourceTree = "<group>"; };
+		7419AF1B20EF068C004CB0AD /* CFMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFMainViewController.m; sourceTree = "<group>"; };
+		A6E11711EA07FF45EFDB4078 /* Pods-CFPicGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFPicGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFPicGame/Pods-CFPicGame.release.xcconfig"; sourceTree = "<group>"; };
+		AD87AF0AB8E5D184B5DF0AC1 /* Pods-CFPicGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFPicGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFPicGameTests/Pods-CFPicGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD54FDCCA69DA8BE28788E7E /* Pods-CFPicGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFPicGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CFPicGameTests/Pods-CFPicGameTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798C5A8B2D4F99437ED5B90A /* libPods-CFPicGame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1234403E501D5434BF47652F /* libPods-CFPicGameTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3389D0EA93C3ED87397A8350 /* libPods-CFPicGameUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CC8D067DCE020EC5F229046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40FE644C1D7E90D76D2E44ED /* libPods-CFPicGame.a */,
+				0DFE5E7A665AFEBAECBDC15F /* libPods-CFPicGameTests.a */,
+				42A4576D4253CE3F16C41D28 /* libPods-CFPicGameUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7419AEDC20EF051F004CB0AD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				7419AF0020EF0520004CB0AD /* CFPicGameTests */,
 				7419AF0B20EF0520004CB0AD /* CFPicGameUITests */,
 				7419AEE620EF051F004CB0AD /* Products */,
+				964F4F1B522ECE5643A00912 /* Pods */,
+				2CC8D067DCE020EC5F229046 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +130,8 @@
 			children = (
 				7419AEE820EF051F004CB0AD /* AppDelegate.h */,
 				7419AEE920EF051F004CB0AD /* AppDelegate.m */,
-				7419AEEB20EF051F004CB0AD /* ViewController.h */,
-				7419AEEC20EF051F004CB0AD /* ViewController.m */,
+				7419AF1A20EF068C004CB0AD /* CFMainViewController.h */,
+				7419AF1B20EF068C004CB0AD /* CFMainViewController.m */,
 				7419AEEE20EF051F004CB0AD /* Main.storyboard */,
 				7419AEF120EF0520004CB0AD /* Assets.xcassets */,
 				7419AEF320EF0520004CB0AD /* LaunchScreen.storyboard */,
@@ -132,6 +159,19 @@
 			path = CFPicGameUITests;
 			sourceTree = "<group>";
 		};
+		964F4F1B522ECE5643A00912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3894A85F1FF50552657EC45D /* Pods-CFPicGame.debug.xcconfig */,
+				A6E11711EA07FF45EFDB4078 /* Pods-CFPicGame.release.xcconfig */,
+				CD54FDCCA69DA8BE28788E7E /* Pods-CFPicGameTests.debug.xcconfig */,
+				AD87AF0AB8E5D184B5DF0AC1 /* Pods-CFPicGameTests.release.xcconfig */,
+				6F605CC1DF314741C9BBE56D /* Pods-CFPicGameUITests.debug.xcconfig */,
+				2F4D8EBDBE3B6D28511C5AC8 /* Pods-CFPicGameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7419AF1120EF0520004CB0AD /* Build configuration list for PBXNativeTarget "CFPicGame" */;
 			buildPhases = (
+				A154A7F4C7C412B588B29CFF /* [CP] Check Pods Manifest.lock */,
 				7419AEE120EF051F004CB0AD /* Sources */,
 				7419AEE220EF051F004CB0AD /* Frameworks */,
 				7419AEE320EF051F004CB0AD /* Resources */,
+				ED0E2EB8CF3C063058DA09ED /* [CP] Embed Pods Frameworks */,
+				1E966D5FA8D09AE9730DDFC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7419AF1420EF0520004CB0AD /* Build configuration list for PBXNativeTarget "CFPicGameTests" */;
 			buildPhases = (
+				077C0985C53EC3EB74A2C605 /* [CP] Check Pods Manifest.lock */,
 				7419AEF920EF0520004CB0AD /* Sources */,
 				7419AEFA20EF0520004CB0AD /* Frameworks */,
 				7419AEFB20EF0520004CB0AD /* Resources */,
+				94E801D7EF9DC18E8105D11C /* [CP] Embed Pods Frameworks */,
+				436C201194B627C5F2313312 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7419AF1720EF0520004CB0AD /* Build configuration list for PBXNativeTarget "CFPicGameUITests" */;
 			buildPhases = (
+				3993C969F1C1B1EACD96C1E7 /* [CP] Check Pods Manifest.lock */,
 				7419AF0420EF0520004CB0AD /* Sources */,
 				7419AF0520EF0520004CB0AD /* Frameworks */,
 				7419AF0620EF0520004CB0AD /* Resources */,
+				FE298E6FFB5B57DB120DC100 /* [CP] Embed Pods Frameworks */,
+				063EFFA94291EA18AE165317 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +306,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		063EFFA94291EA18AE165317 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CFPicGameUITests/Pods-CFPicGameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		077C0985C53EC3EB74A2C605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1E966D5FA8D09AE9730DDFC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CFPicGame/Pods-CFPicGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3993C969F1C1B1EACD96C1E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		436C201194B627C5F2313312 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CFPicGameTests/Pods-CFPicGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94E801D7EF9DC18E8105D11C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CFPicGameTests/Pods-CFPicGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A154A7F4C7C412B588B29CFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0E2EB8CF3C063058DA09ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CFPicGame/Pods-CFPicGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE298E6FFB5B57DB120DC100 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CFPicGameUITests/Pods-CFPicGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7419AEE120EF051F004CB0AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7419AEED20EF051F004CB0AD /* ViewController.m in Sources */,
 				7419AEF820EF0520004CB0AD /* main.m in Sources */,
 				7419AEEA20EF051F004CB0AD /* AppDelegate.m in Sources */,
+				7419AF1C20EF068C004CB0AD /* CFMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,14 +618,12 @@
 		};
 		7419AF1220EF0520004CB0AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3894A85F1FF50552657EC45D /* Pods-CFPicGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CFPicGame/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syswon.com.CFPicGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,14 +632,12 @@
 		};
 		7419AF1320EF0520004CB0AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E11711EA07FF45EFDB4078 /* Pods-CFPicGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CFPicGame/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syswon.com.CFPicGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,15 +646,12 @@
 		};
 		7419AF1520EF0520004CB0AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD54FDCCA69DA8BE28788E7E /* Pods-CFPicGameTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CFPicGameTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syswon.com.CFPicGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,15 +661,12 @@
 		};
 		7419AF1620EF0520004CB0AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD87AF0AB8E5D184B5DF0AC1 /* Pods-CFPicGameTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CFPicGameTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syswon.com.CFPicGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,14 +676,11 @@
 		};
 		7419AF1820EF0520004CB0AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F605CC1DF314741C9BBE56D /* Pods-CFPicGameUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CFPicGameUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syswon.com.CFPicGameUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,14 +690,11 @@
 		};
 		7419AF1920EF0520004CB0AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4D8EBDBE3B6D28511C5AC8 /* Pods-CFPicGameUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CFPicGameUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.syswon.com.CFPicGameUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
